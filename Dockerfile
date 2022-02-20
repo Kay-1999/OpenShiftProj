@@ -1,4 +1,4 @@
 FROM httpd
-COPY ./assets /usr/local/apache2/htdocs/assets
-COPY ./index.html /usr/local/apache2/htdocs/
+COPY ./assets /opt/rh/httpd24/root/var/www/html/assets
+COPY ./index.html /opt/rh/httpd24/root/var/www/html/
 EXPOSE 8080/tcp
